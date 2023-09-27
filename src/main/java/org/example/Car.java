@@ -35,10 +35,11 @@ public class Car extends Vehicle {
     @Override
     public String toString() {
         return "Car{" +
-                "numberOfDoors=" + numberOfDoors +
+
                 "manufacturer='" + this.getManufacturer() + '\'' +
                 ", model='" + this.getModel() + '\'' +
                 ", builtYear=" + this.getBuiltYear() +
+                ", numberOfDoors=" + numberOfDoors +
                 '}';
     }
 }
